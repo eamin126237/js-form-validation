@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" id="main">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <!-- Bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        />
+
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container my-5">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <form id="demo">
+                        <div class="card shadow">
+                            <div class="card-body">
+                                <div class="msg"></div>
+
+                                <!-- Name -->
+                                <div
+                                    id="name"
+                                    class="mt-4 border border-1 border-dark rounded d-flex justify-content-between align-items-center"
+                                >
+                                    <input
+                                        class="form-control border-0"
+                                        type="text"
+                                        placeholder="Name"
+                                    />
+                                    <i
+                                        id="name_i"
+                                        class="fa-solid fa-circle-exclamation pe-2"
+                                    ></i>
+                                    <p id="p_name">
+                                        What's your name?
+                                        <i class="fa-solid fa-caret-up"></i>
+                                    </p>
+                                </div>
+                                <p class="lead" id="required_name"></p>
+
+                                <!-- Email -->
+                                <div
+                                    id="email"
+                                    class="mt-4 border border-1 border-dark rounded d-flex justify-content-between align-items-center"
+                                >
+                                    <input
+                                        class="form-control border-0"
+                                        type="text"
+                                        placeholder="Email"
+                                    />
+                                    <i
+                                        id="email_i"
+                                        class="fa-solid fa-circle-exclamation pe-2"
+                                    ></i>
+                                    <p id="p_email">
+                                        What's your email?
+                                        <i class="fa-solid fa-caret-up"></i>
+                                    </p>
+                                </div>
+                                <p class="lead" id="required_email"></p>
+
+                                <!-- Phone -->
+                                <div
+                                    id="phone"
+                                    class="mt-4 border border-1 border-dark rounded d-flex justify-content-between align-items-center"
+                                >
+                                    <input
+                                        class="form-control border-0"
+                                        type="text"
+                                        placeholder="Phone"
+                                    />
+                                    <i
+                                        id="phone_i"
+                                        class="fa-solid fa-circle-exclamation pe-2"
+                                    ></i>
+                                    <p id="p_phone">
+                                        What's your phone number?
+                                        <i class="fa-solid fa-caret-up"></i>
+                                    </p>
+                                </div>
+                                <p class="lead" id="required_phone"></p>
+
+                                <!-- Button -->
+                                <button
+                                    class="btn btn-primary mt-5"
+                                    type="submit"
+                                >
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="function.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

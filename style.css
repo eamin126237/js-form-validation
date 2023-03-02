@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400&family=Roboto:wght@100;300;400;500;700&display=swap");
+
+[class^="fa-solid fa-circle-exclamation"] {
+    display: none;
+    color: red;
+}
+
+input:focus {
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+#name {
+    position: relative;
+}
+
+#email {
+    position: relative;
+}
+
+#phone {
+    position: relative;
+}
+
+[id^="p_"] {
+    position: absolute;
+    background-color: brown;
+    color: #fff;
+    padding: 10px 20px;
+    top: 124%;
+    left: 50%;
+    z-index: 5;
+    display: none;
+}
+
+p i {
+    position: absolute;
+    top: -13px;
+    left: 50%;
+    color: #a52a2a;
+    font-size: 23px;
+    transform: translatex(-50%);
+    z-index: 5;
+}
